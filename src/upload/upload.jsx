@@ -25,7 +25,7 @@ import FileType from "../filetype/filetype";
 
 const Upload = () => {
 
-
+    console.log();
     const dispatch = useDispatch();
     const company = useSelector((state) => state.fatca.companyName);
     const data = useSelector((state) => state.fatca.data);
